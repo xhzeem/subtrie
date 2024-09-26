@@ -17,27 +17,16 @@ The tool supports reading from both files and standard input, and can output the
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone <repo-url>
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd subtrie
-   ```
-
-3. Build the project:
-   ```bash
-   go build
-   ```
+```bash
+go install github.com/xhzeem/subtrie@latest
+```
 
 ## Usage
 
 The tool can be run from the command line. Below are the usage options:
 
 ```bash
-./subtrie [options]
+subtrie [options]
 ```
 
 ### Command-line Options
